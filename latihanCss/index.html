@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan CSS</title>
+    <!--Internal Css-->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&family=Poppins&display=swap');
+        *{
+            font-size: 20px;
+            border: 1px solid rgb(255, 255, 255);
+        }
+        body {
+            font-family: 'Poppins', sans-serif;;
+            background-color: blue;
+        }
+
+        h1 {
+            color: white;
+        }
+
+        p {
+            color: cyan;
+            /*pengaturan tulisan*/
+            text-align: justify;
+            /*ketebalan huruf*/
+            font-weight: 600;
+        }
+
+        .text-green {
+            color: greenyellow;
+        }
+
+        #id {
+            color: orange;
+        }
+
+        input[type=text]{
+            background: red;
+            color: white;
+        }
+
+        /* hover ketika mouse diarahkan ke suatu object*/
+        p:hover{
+            color: white;
+        }
+    </style>
+    <!--Eksternal CSS-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+        <h1 class="text-green" id="judul">Belajar Css</h1>
+        <!--menjadi warna hijau & justify-->
+        <p class="text-green">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, sequi praesentium.
+            Dolor ullam fuga illo quidem consequatur dignissimos ab, eveniet quia maxime autem culpa praesentium dolores
+            deleniti expedita ea provident?</p>
+
+        <!--Inline CSS-->
+        <p style="color: yellow;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, quis? Esse
+            tenetur
+            facere accusamus eos
+            nulla distinctio, suscipit magni tempore rerum nostrum inventore blanditiis ipsa quidem, iure nesciunt!
+            Adipisci, praesentium.</p>
+    </center>
+    <input type="text" name="" id="">
+
+</body>
+
+</html>

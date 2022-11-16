@@ -1,0 +1,23 @@
+/* Css jarak */
+/*
+   padding : jarak dalam
+   Margin : jarak luar
+*/
+
+.box {
+    /*margin keseluruhan atas, kanan, kiri, bawah*/
+    margin: 20px;
+    /*10px atas bawah 20px kiri kanan*/
+    margin: 10px 20px;
+    /*10px atas 20px kanan 30px bawah 40px kiri*/
+    margin: 10px 20px 30px 40px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    /*membuat suatu objek berada di tengah*/
+    /*syarat harus sudah tersedia hight & Widht sebelumnya*/
+    margin: auto;
+
+    
+}
